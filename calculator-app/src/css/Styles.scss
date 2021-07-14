@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css?family=Spartan");
+
+*{
+    font-family: 'Spartan', sans-serif;
+    font-weight: 700;
+}
+
+.App{
+    width: 95%;
+    background-color: hsl(268, 75%, 9%);
+    color: hsl(198, 20%, 13%);
+    font-family: 'Spartan', sans-serif;
+    font-weight: 700;
+    input{
+        border-radius: 1rem;
+        width: 93vw;
+        height: 4rem;
+        background-color: hsl(268, 71%, 12%);
+        color: white;
+        font-family: 'Spartan', sans-serif;
+        font-weight: 700;
+        font-size: 1.5rem;
+        text-align: right;
+    }
+
+}
+.column-3{
+    width: 75%;
+    float: left;
+}
+.column-2{
+    width: 50%;
+    float: left;
+}
+.column-1{
+    width: 25%;
+    float: left;
+}
+
+.calc-button{
+    width: 100%;
+    height: 4rem;
+    background-color: hsl(268, 71%, 12%);
+    color: white;
+    border-radius: 1rem;
+}
+.button-AC{
+    background-color: hsl(281, 89%, 26%);
+}
+.btns{
+    background-color: hsl(268, 71%, 12%);
+}
+
+.previous{
+    float: right;
+    color: #aaa;
+}
